@@ -3,39 +3,295 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dự án đầu tiên của tôi</title>
+    <title>Tuần lễ Dinh dưỡng và Phát triển 2026</title>
+
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
+            margin: 0;
             font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #e8f5e9;
-            padding: 50px 20px;
+            background-color: #f4faef;
+            color: #333;
+            line-height: 1.7;
         }
 
-        h1 {
-            color: #237a3b;
-        }
-
-        p {
-            font-size: 18px;
-        }
-
-        button {
-            padding: 12px 20px;
-            background-color: #237a3b;
+        header {
+            background-color: #237a43;
             color: white;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
+            text-align: center;
+            padding: 25px 15px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        header p {
+            margin: 5px 0;
+        }
+
+        .banner {
+            text-align: center;
+            padding: 55px 20px;
+            background: linear-gradient(135deg, #dff4d4, #fff8df);
+        }
+
+        .banner h2 {
+            color: #17652f;
+            font-size: 34px;
+            margin: 0 0 15px;
+        }
+
+        .banner .topic {
+            font-size: 21px;
+            font-weight: bold;
+            color: #9b6500;
+        }
+
+        .banner .date {
+            font-size: 17px;
+        }
+        .tram-y-te {
+            display: block;
+            width: 100%;
+            max-width: 600px;
+            height: 320px;
+            object-fit: cover;
+            margin: 25px auto 0;
+            border-radius: 14px;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+        }
+        .anh-dinh-duong {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 14px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+
+        main {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 18px;
+        }
+
+        section {
+            background: white;
+            padding: 25px;
+            margin-bottom: 22px;
+            border-radius: 14px;
+            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.07);
+        }
+
+        section h2 {
+            color: #237a43;
+            border-left: 5px solid #8bc34a;
+            padding-left: 12px;
+        }
+
+        .message {
+            background-color: #e7f5dc;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            font-weight: bold;
+            color: #17652f;
+            font-size: 19px;
+        }
+
+        footer {
+            background-color: #237a43;
+            color: white;
+            text-align: center;
+            padding: 22px 15px;
+            margin-top: 35px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 22px;
+            }
+
+            .banner h2 {
+                font-size: 27px;
+            }
+
+            .banner .topic {
+                font-size: 18px;
+            }
+
+            section {
+                padding: 18px;
+            }
         }
     </style>
 </head>
-<body>
-    <h1>Chào mừng đến với dự án của tôi!</h1>
-    <p>Đây là trang web đầu tiên tôi tự tạo.</p>
 
-    <button onclick="alert('Bạn đã tạo thành công trang web!')">
-        Bấm vào đây
-    </button>
+<body>
+
+    <header>
+        <p>UBND XÃ TÂY KHÁNH VĨNH</p>
+        <h1>TRẠM Y TẾ TÂY KHÁNH VĨNH</h1>
+        <p>Chung tay vì sức khỏe cộng đồng</p>
+    </header>
+
+    <div class="banner">
+        <h2>TUẦN LỄ DINH DƯỠNG VÀ PHÁT TRIỂN 2026</h2>
+
+        <p class="topic">
+            “Đổi mới hôm nay – Dinh dưỡng tốt ngày mai”
+        </p>
+
+        <p class="date">
+            Thời gian: Từ ngày 16/10 đến ngày 23/10/2026
+        </p>
+         <img
+            src="img/tram-y-te.png"
+            alt="Trạm Y tế Tây Khánh Vĩnh"
+            class="tram-y-te"
+        >
+    </div>
+
+    <main>
+
+        <section>
+            <h2>🌿 Ý nghĩa của Tuần lễ Dinh dưỡng</h2>
+
+            <p>
+                Dinh dưỡng hợp lý là nền tảng quan trọng để nâng cao sức khỏe,
+                cải thiện chất lượng cuộc sống và góp phần phát triển toàn diện
+                thể chất, trí tuệ của mỗi người.
+            </p>
+
+            <p>
+                Hưởng ứng Tuần lễ “Dinh dưỡng và Phát triển” năm 2026,
+                mỗi người dân, mỗi gia đình hãy cùng xây dựng thói quen
+                ăn uống lành mạnh, lựa chọn thực phẩm an toàn và sử dụng
+                thực phẩm hợp lý, tiết kiệm.
+            </p>
+        </section>
+
+        <section>
+            <h2>🥗 Ăn uống hợp lý – Sống khỏe mỗi ngày</h2>
+
+            <ul>
+                <li>Ăn đa dạng các loại thực phẩm, bảo đảm cân đối dinh dưỡng.</li>
+                <li>Tăng cường rau xanh và trái cây tươi.</li>
+                <li>Hạn chế thực phẩm chứa nhiều muối, đường và chất béo không có lợi.</li>
+                <li>Lựa chọn thực phẩm tươi, sạch, có nguồn gốc rõ ràng.</li>
+                <li>Kết hợp chế độ ăn lành mạnh với hoạt động thể lực phù hợp.</li>
+                <li>Duy trì vận động thể lực phù hợp với lứa tuổi và tình trạng sức khỏe.</li>
+<li>Quan tâm theo dõi cân nặng, chiều cao và tình trạng dinh dưỡng định kỳ.</li>
+                
+            </ul>
+            <img src="img/Anh 2.jpg" alt="Bảng 4 nhóm thực phẩm trong dinh dưỡng hợp lý" class="anh-dinh-duong" >
+
+>
+        </section>
+
+        <section>
+            <h2>👩‍👧 Chăm sóc dinh dưỡng bà mẹ và trẻ em</h2>
+
+            <p>
+                Phụ nữ mang thai, bà mẹ đang nuôi con nhỏ và trẻ em cần được
+                quan tâm đặc biệt về dinh dưỡng.
+            </p>
+
+<img
+    src="img/A2.jpg"
+    alt="Hoạt động thực hành dinh dưỡng"
+    class="anh-dinh-duong"> 
+    
+
+<img src="img/Anh 4.jpg" alt="Bà mẹ và trẻ nhỏ tham gia hoạt động thực hành dinh dưỡng" class="anh-dinh-duong">
+
+
+            <ul>
+                <li>Phụ nữ mang thai cần ăn đa dạng, đủ chất và khám thai định kỳ.</li>
+                <li>Khuyến khích nuôi con bằng sữa mẹ theo khuyến cáo của ngành y tế.</li>
+                <li>Trẻ từ 6 tháng tuổi cần được ăn bổ sung phù hợp với độ tuổi.</li>
+                <li>Theo dõi cân nặng, chiều cao để phát hiện sớm nguy cơ suy dinh dưỡng.</li>
+                <li>Đưa trẻ đến cơ sở y tế khi cần tư vấn về dinh dưỡng và tăng trưởng.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>🍎 Bảo đảm an toàn thực phẩm</h2>
+
+            <ul>
+                <li>Rửa tay bằng xà phòng trước khi chế biến thức ăn và trước khi ăn.</li>
+                <li>Ăn chín, uống chín; sử dụng nước sạch.</li>
+                <li>Tách riêng thực phẩm sống và thực phẩm đã nấu chín.</li>
+                <li>Bảo quản thực phẩm đúng cách.</li>
+                <li>Không sử dụng thực phẩm ôi thiu, nấm mốc hoặc không rõ nguồn gốc.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>❤️ Thông điệp truyền thông</h2>
+
+            <div class="message">
+                ĐỔI MỚI HÔM NAY – DINH DƯỠNG TỐT NGÀY MAI!
+                <br><br>
+                Ăn đa dạng, đủ chất – Sống khỏe mỗi ngày!
+                <br><br>
+                Lựa chọn thực phẩm an toàn – Bảo vệ sức khỏe gia đình!
+                <br><br>
+                Chung tay giảm lãng phí thực phẩm – Vì tương lai bền vững!
+                
+            </div>
+            <div style="max-width: 798px; margin: 25px auto;">
+        <iframe
+            width="100%"
+            height="449"
+            src="https://www.youtube.com/embed/BZJdMPVhACs"
+            title="Vì một Việt Nam khỏe mạnh - Hòa Minzy x Nguyễn Hải Phong"
+            style="border: 0; border-radius: 12px; max-width: 100%;"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+        </iframe>
+    </div>
+            
+
+            
+        </section>
+
+    </main>
+
+    <footer>
+        <section>
+        <h2>👩‍💻 Thông tin người thực hiện</h2>
+
+        <div class="message">
+            <p>
+                <strong>Đơn vị thực hiện:</strong><br>
+                Trạm Y tế Tây Khánh Vĩnh
+            </p>
+
+            <p>
+                <strong>Người thiết kế và thực hiện website:</strong><br>
+                Nguyễn Thị Lệ Chi
+            </p>
+
+            <p>
+                <strong>Nội dung:</strong><br>
+                Truyền thông hưởng ứng Tuần lễ
+                Dinh dưỡng và Phát triển năm 2026.
+            </p>
+        </div>
+    </section>
+
+        <p><strong>TRẠM Y TẾ TÂY KHÁNH VĨNH</strong></p>
+        <p>Chung tay vì dinh dưỡng hợp lý và sức khỏe cộng đồng.</p>
+    </footer>
+
 </body>
 </html>
